@@ -34,9 +34,11 @@ jobs:
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
         with:
+          include: "index.html"
           find: "./"
           replace: ""
           regex: false
+          
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
