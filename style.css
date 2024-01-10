@@ -46,7 +46,7 @@ body {
     gap: 1rem;
 }
 
-.card  h3 {
+.card  h1 {
     width: 80%;
     text-align: center;
     text-wrap: balance;
